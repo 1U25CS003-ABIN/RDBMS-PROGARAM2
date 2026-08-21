@@ -1,8 +1,12 @@
-CREATE TABLE Student (
-    StudentID INT PRIMARY KEY,
+CREATE DATABASE JAM3;
+USE JAM3;
+
+CREATE TABLE Student1(
+    StudentID INTEGER(5)PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL UNIQUE,
     DOB DATE NOT NULL,
     Gender VARCHAR(10) NOT NULL,
-    DepartmentID INT NOT NULL
-);
-
+    DepartmentID INTEGER (5) NOT NULL);
+DESC Student1;
+INSERT student VALUES("10023","abin","2008-07-19","male","10003");
+SELECT * FROM student1;
